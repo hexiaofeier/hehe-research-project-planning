@@ -1,0 +1,4 @@
+interface:
+  display_name: "研究项目策划"
+  short_description: "将研究需求转成方法设计、研究框架、执行日历与报价，也可单独编制其中一项"
+  default_prompt: "请使用 $hehe-research-project-planning，根据研究需求和资源形成含研究框架的计划书，并按需要安排执行日历与报价。"

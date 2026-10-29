@@ -1,0 +1,2 @@
+# PDF export only; HTML uses the Python standard library.
+playwright==1.59.0

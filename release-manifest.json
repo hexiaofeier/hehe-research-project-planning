@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "profile": "standalone-research-planning",
+  "display_name": "盒盒研究项目策划 Skill",
+  "repository_slug": "hehe-research-project-planning",
+  "version": "2026.10.29",
+  "namespace": "hehe-",
+  "entry_skill": "hehe-research-project-planning",
+  "install_policy": "standalone",
+  "license": "MIT",
+  "required_skills": [],
+  "optional_external_skills": {
+    "hehe-report-writing": "已安装且可用时默认润色；缺少时按本Skill成文与分页。",
+    "hehe-report-presentation": "已安装且可用时默认承接视觉交付；缺少时使用随包16:9模板。"
+  },
+  "skills": [
+    {
+      "name": "hehe-research-project-planning",
+      "role": "planning",
+      "required_files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "assets/proposal-slides.html",
+        "scripts/render_proposal.py",
+        "scripts/export_proposal_pdf.py",
+        "references/项目类型与交付差异.md",
+        "references/计价与变更方法.md",
+        "references/行业与用户研究框架参考.md",
+        "references/研究项目计划书交付模板.md",
+        "references/研究问题与方法设计.md",
+        "references/研究框架设计方法.md",
+        "references/研究报价单交付模板.md",
+        "references/研究执行方案交付模板.md",
+        "references/排程与调整方法.md",
+        "references/HTML计划书交付规范.md"
+      ]
+    }
+  ],
+  "source_sha256": {
+    "SKILL.md": "90727b8ec1801c79fd060baeccfe48212e352c8ccffca41e3f33d3904eb5cf28",
+    "agents/openai.yaml": "bd94be037529787350ad6fc32f8de18e6bc4c12c56f870f387d6108fbb260c33",
+    "assets/proposal-slides.html": "3911be062d66ca0de4a1e2bd9eae11c28853814014832a09e969d1728336101e",
+    "scripts/render_proposal.py": "12c59328e187e1dd9234d714c69eb3122fdcc931e1b1923fd088d8e337ede687",
+    "scripts/export_proposal_pdf.py": "6def397104637eadf9dda28d6ad9d84d43e421eb32fddd084313bd49c6e416e6",
+    "references/项目类型与交付差异.md": "1c40b5c944ebed3adc3ea325c9d4375aad899521d31faa8534599794348f01b3",
+    "references/计价与变更方法.md": "90c2f259612771e562d5d97ad1e0bde5674f1eb4f49918b0c88a508ba98f0682",
+    "references/行业与用户研究框架参考.md": "402427012b511fe6d455b8051c7bfcb780b4f1725fd162a42a62f0c9aeaa0f64",
+    "references/研究项目计划书交付模板.md": "b372078ba8a41593069f8ceb5db9f6bda808de3a853f44ca6dad0632be7d1a82",
+    "references/研究问题与方法设计.md": "83bcac3ac7ead72636955ba980182becf44f0fb160c001f2a135eabfe979b4f7",
+    "references/研究框架设计方法.md": "e4e547f519df0c998f1639f129faf8cb7078ca9f68b8ecc351ea66a7cb667382",
+    "references/研究报价单交付模板.md": "5a7e98a63409801d22a19b0f84101c1ac5c81207a22db57953a664b9dc4341d7",
+    "references/研究执行方案交付模板.md": "2aa312d2bcccbb874156fe053fbacefafbd72b09449f856295312c18e04fbb8c",
+    "references/排程与调整方法.md": "04a39f3948f705c51e0af2d2f06d5e877d63a8892e7d08ba6ea67095995f4427",
+    "references/HTML计划书交付规范.md": "6a7e2844ddaa506969f377dfc4f744047b522d381b7418d32bb03c708eee48eb"
+  },
+  "public_sha256": {
+    "SKILL.md": "5f425dcde051221ad3edb656113e465cd47f6e2ca6e2d67f60639c0cb02142ba",
+    "agents/openai.yaml": "faca41267d62e0ea53588f114510520c714f57ea70808404567d17bf371904ef",
+    "assets/proposal-slides.html": "c9305ad5ded8c60affd558faf43b76380dcb0c27a6a183369a92f6761e70715b",
+    "scripts/render_proposal.py": "43c35f8bf07df5218165faac7e1f771c76db03510e5e6f138ebd2bdb0e1af802",
+    "scripts/export_proposal_pdf.py": "6def397104637eadf9dda28d6ad9d84d43e421eb32fddd084313bd49c6e416e6",
+    "references/项目类型与交付差异.md": "1c40b5c944ebed3adc3ea325c9d4375aad899521d31faa8534599794348f01b3",
+    "references/计价与变更方法.md": "dc3e689e2a982380ccd3800cbc89f747d3a014ff22752882e3c2c8a27e7fb4e3",
+    "references/行业与用户研究框架参考.md": "25b173cc842097dc36e2fc293b0c6994974c9015057a452a9b8220ce0b56c4d1",
+    "references/研究项目计划书交付模板.md": "28b3e9df496fd845c50c8ec3e7a7b4fb1257851201600505868da169a1ebf339",
+    "references/研究问题与方法设计.md": "18c507d4f5e4b2e445b11afb9f4227c7694b20335586a5bbf4381db64088a0ec",
+    "references/研究框架设计方法.md": "7af166d973d0b8f15aa30fa88a1ee44a8e6b4fd26b27cbadaf701ef074a01e11",
+    "references/研究报价单交付模板.md": "161e7b87e507b12539524f37bd8a693bd524055318768da96abe436ce7148b10",
+    "references/研究执行方案交付模板.md": "830ef763cf3d39087047f08e6aaf5a656dd92dba80fefc00102b748391cd851b",
+    "references/排程与调整方法.md": "e998db6ac931661f6ba0a8ed453a47fbd31c31c5a8b13b52a35c23a7ea0d09d2",
+    "references/HTML计划书交付规范.md": "d72748b5b2645f388685f86e3b54cc536ed0b57c67d86fee4456fc1c22eb94ec"
+  },
+  "runtime": {
+    "html": "Python 3.10+ standard library",
+    "pdf": "Python + Playwright + Chromium or compatible installed browser"
+  },
+  "examples": {
+    "type": "simulated proposal, fictional commissioning company",
+    "pages": 29,
+    "enhanced_with": [
+      "hehe-report-writing",
+      "hehe-report-presentation"
+    ],
+    "files": [
+      "examples/age-friendly-renovation/20261029_居家适老化_研究计划书_v3_定稿_CO.md",
+      "examples/age-friendly-renovation/20261029_居家适老化_研究计划书_v3_定稿_CO.html",
+      "examples/age-friendly-renovation/20261029_居家适老化_研究计划书_v3_定稿_CO.pdf",
+      "examples/age-friendly-renovation/20261029_居家适老化_对客报价_v3_CO.md"
+    ]
+  }
+}
